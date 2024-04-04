@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - runs: python hell.py
+      - runs: python hello.py
   build:
     needs: [test]
     runs-on: ubuntu-latest
