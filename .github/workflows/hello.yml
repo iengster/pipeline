@@ -2,7 +2,7 @@ name: Python Hello
 on: [push]
 jobs:
   test:
-    runs-on ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - runs: python hell.py
